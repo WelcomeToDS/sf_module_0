@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import numpy as np
 
 def game_core_v2(number):
@@ -26,3 +27,6 @@ def score_game(game_core):
     
 # запускаем
 score_game(game_core_v2)
+=======
+ print("Hello world")
+>>>>>>> parent of 888bb11... Update main.py
