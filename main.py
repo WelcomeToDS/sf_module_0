@@ -23,4 +23,3 @@ def score_game(game_core):
     print(f"Ваш алгоритм угадывает число в среднем за {score} попыток")
 # запускаем
 score_game(game_core_v2)
-
