@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 import numpy as np
-
 def game_core_v2(number):
     count = 0
     _min = 1
@@ -14,7 +12,6 @@ def game_core_v2(number):
             _max = predict - 1
         predict = (_min + _max) // 2
     return(count)
-
 def score_game(game_core):
     '''«апускаем игру 1000 раз, чтоб узнать как быстро игра угадывает число'''
     count_ls = []
@@ -24,9 +21,6 @@ def score_game(game_core):
         count_ls.append(game_core(number))
     score = int(np.mean(count_ls))
     print(f"¬аш алгоритм угадывает число в среднем за {score} попыток")
-    
 # запускаем
 score_game(game_core_v2)
-=======
- print("Hello world")
->>>>>>> parent of 888bb11... Update main.py
+
